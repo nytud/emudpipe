@@ -1,3 +1,7 @@
-from .emudpipe import UDPipe
+#!/usr/bin/env pyhton3
+# -*- coding: utf-8, vim: expandtab:ts=4 -*-
 
-__all__ = ['UDPipe']
+from .emudpipe import UDPipe
+from .version import __version__
+
+__all__ = ['UDPipe', __version__]

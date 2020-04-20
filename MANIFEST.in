@@ -1,0 +1,3 @@
+# include emudpipe/hungarian-ud-1.2-160523.udpipe
+# include emudpipe/hungarian-szeged-ud-2.4-190531.udpipe
+include emudpipe/hungarian-szeged-ud-2.5-191206.udpipe

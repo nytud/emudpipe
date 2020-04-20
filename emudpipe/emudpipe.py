@@ -19,9 +19,12 @@ class UDPipe:
     conll_line = namedtuple('CoNLL', 'id, form, lemma, upostag, xpostag, feats, head, deprel, deps, misc')
 
     def __init__(self, task='parse', model=os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                                        'hungarian-szeged-ud-2.4-190531.udpipe'),
+                                                        'hungarian-szeged-ud-2.5-191206.udpipe'),
                  source_fields=None, target_fields=None):
-        # Download model: https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2898
+        # Download model:
+        #   - UDv1.2 https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-1659
+        #   - UDv2.4 https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-2898
+        #   - UDv2.5 https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131
         self._model = Model.load(model)  # Load this
         if self._model is None:
             raise UDPipeError('ERROR:Loading modelfile {0}'.format(model))

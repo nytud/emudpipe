@@ -1,8 +1,8 @@
 # emUDPipe
 
-An __[UDPipe](http://ufal.mff.cuni.cz/udpipe)__ wrapper for emtsv (xtsv)
+An __[UDPipe](http://ufal.mff.cuni.cz/udpipe)__ wrapper implemented in Python.
 
-This module can be used sandalone with xtsv (see main.py), as part of [emtsv](https://github.com/dlt-rilmta/emtsv) or in any [xtsv](https://github.com/dlt-rilmta/xtsv) pipeline.
+This module can be used sandalone with [xtsv](https://github.com/dlt-rilmta/xtsv), or as part of [e-magyar text processing system](https://github.com/dlt-rilmta/emtsv) or in any [xtsv](https://github.com/dlt-rilmta/xtsv) pipeline.
 
 ## License
 

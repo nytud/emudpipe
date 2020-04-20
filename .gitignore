@@ -108,6 +108,3 @@ venv.bak/
 
 # Temp file from editor
 *~
-
-# Special, current project related stuff
-xtsv
