@@ -1,4 +1,4 @@
-#!/usr/bin/env pyhton3
+#!/usr/bin/env python3
 # -*- coding: utf-8, vim: expandtab:ts=4 -*-
 
 import setuptools
@@ -25,6 +25,7 @@ setuptools.setup(
     ],
     python_requires='>=3.6',
     install_requires=['ufal.udpipe',  # TODO: List dependencies at only one file requirements.txt vs. setup.py
+                      'xtsv>=1.0,<2.0',
                       ],
     include_package_data=True,
     entry_points={
